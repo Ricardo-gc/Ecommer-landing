@@ -1,0 +1,32 @@
+.experience-container{
+  margin-top: 200px;
+  max-width: 80%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 80px;
+  border-radius: 50px;
+  background: rgb(237,238,246);
+  background: linear-gradient(45deg, rgba(237,238,246,1) 49%, rgba(237,238,246,0) 100%);
+}
+
+.experience-container-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.experience-container-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-container-image img{
+  border: 20px solid #DCDEFE;
+  border-radius: 55px;
+  
+}

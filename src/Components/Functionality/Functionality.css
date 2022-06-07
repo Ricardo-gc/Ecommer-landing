@@ -1,0 +1,31 @@
+.functionality-container{
+  margin-top: 200px;
+  max-width: 80%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.functionality-container-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.functionality-container-image img{
+  border: 20px solid #DCDEFE;
+  border-radius: 55px;
+}
+
+.functionality-container-text{
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.functionality-container-text a{
+  font-size: 24px;
+  font-weight: 700;
+  color: #5956E9;
+}

@@ -1,0 +1,36 @@
+.download-container{
+  margin-top: 200px;
+  max-width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  align-content: space-around;
+  padding: 0px 80px 0px 100px;
+  border-radius: 50px;
+  background: #FAB8C5;
+}
+
+.download-container-text{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.download-container-text p{
+  font-size: 40px;
+  font-weight: 700;
+  color: #5956E9;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.download-container-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -110px;
+  right: -200px;
+}
