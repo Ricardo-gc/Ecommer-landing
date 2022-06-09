@@ -7,6 +7,7 @@ import Button from "../Shared/Button";
 
 import saly from '../../assets/Sally-4.svg'
 import logo from '../../assets/Logo.svg'
+import menu from '../../assets/hamburger-menu.svg';
 
 function Hero(){
   return(
@@ -23,6 +24,7 @@ function Hero(){
           <a href="#">Faq</a>
           <a href="#">Contact</a>
         </nav>
+        <nav className="toggle"><img src={menu} alt="" /></nav>
         <nav className="hero-nav-button">
           <Button primary={ false }>Download App</Button>
         </nav>
