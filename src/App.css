@@ -7,13 +7,13 @@
 html{
   box-sizing: border-box;
   background-color: #FFF;
+  overflow-x: hidden;
 }
 
 .App{
   height: 100vh;
   padding-top: 60px;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   justify-content: center;
   align-items: center;
 }
@@ -21,4 +21,9 @@ html{
 .container{
   margin:0 auto;
   width:80%;
+}
+
+.footer{
+  height: 50px;
+  text-align: center;
 }

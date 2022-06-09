@@ -9,7 +9,7 @@ function Socials(){
     <div className="container">
       <div className="socials-container">
         <div className="socials-container-text">
-          <Title>Hey! Follow us on social media so you do not miss any offer.</Title>
+          <Title>Hey! Follow us on social media so you don´t miss any offer.</Title>
         </div>
         <div className="socials-container-image">
           <img src={ sally6 } alt="" />

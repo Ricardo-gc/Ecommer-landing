@@ -13,6 +13,7 @@ function Hero(){
     <div className="container">
       <div className="hero-nav-container">
         <div className="hero-nav-title">
+          <div className="circle-1"></div>
           <img src={logo} alt="" />
           <a>Sweava</a>
         </div>
@@ -28,11 +29,15 @@ function Hero(){
       </div>
       <div className="hero-container">
         <div className="hero-container-text">
+          <div className="circle-2"></div>
+          <div className="circle-3"></div>
+          <div className="circle-4"></div>
           <Title>Shopping App for Gadgets and Gifts</Title>
           <Text>Get 10% off your first order when you spend over £40 on any product!</Text>
           <Button primary={ true }>Download App</Button>
         </div>
         <div className="hero-container-image">
+          <div className="circle-5"></div>
           <img src={saly} alt="Imagen Saly" />
         </div>
       </div>

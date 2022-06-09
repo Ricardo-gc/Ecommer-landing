@@ -1,3 +1,4 @@
+/* Main ontainer */
 .download-container{
   margin-top: 200px;
   max-width: 80%;
@@ -12,20 +13,23 @@
   background: #FAB8C5;
 }
 
+/* Text and Button */
 .download-container-text{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
+
 .download-container-text p{
   font-size: 40px;
   font-weight: 700;
   color: #5956E9;
-  line-height: 1.5;
+  line-height: 1.2;
   margin-bottom: 50px;
 }
 
+/* Image container */
 .download-container-image{
   display: flex;
   align-items: center;
@@ -33,4 +37,49 @@
   position: relative;
   top: -110px;
   right: -200px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 414px) {
+  .container-hund{
+    width: 100%;
+  }
+
+  .download-container{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-width: 100%;
+    margin-left: 0;
+    height: 900px;
+    border-radius: 0;
+  }
+
+  .download-container-text{
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+
+  }
+
+  .download-container-text .download-text-button{
+    z-index: -2;
+    max-width: 0;
+    max-height: 0;
+  }
+
+  .download-container-image{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    position: relative;
+    left: 0px;
+    z-index: 1
+  }
+
+  .download-text-button{
+    position: relative;
+  }
 }

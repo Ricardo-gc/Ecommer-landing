@@ -23,7 +23,19 @@ function Discover(){
             <Text>There are more than 950 categories updated daily based on trending websites reviews an users rating.</Text>
           </div>
         </div>
-      </div>
+        </div> 
+
+        {/* <div className="functionality-container">
+          <div className="functionality-container-image">
+            <img src={app} alt="" />
+          </div>
+          <div className="functionality-container-text">
+            <a>Original platform</a>
+            <Title>Hottest deals around the web</Title>
+            <Text>Find the perfect gift or everyday goods right at your fingertips.</Text>
+          </div>
+        </div>
+        </div> */}
     </div>
   );
 };

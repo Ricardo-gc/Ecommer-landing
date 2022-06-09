@@ -11,10 +11,14 @@ function Experience(){
     <div className="container">
       <div className="experience-container">
         <div className="experience-container-text">
+          <div className="circle-6"></div>
+          <div className="circle-7"></div>
           <Title>Experience products in AR</Title>
           <Text>Have you tried Augmented Reality? Stop looking at boring galleries and start experiences each item.</Text>
         </div>
         <div className="experience-container-image">
+          <div className="circle-8"></div>
+          <div className="circle-9"></div>
           <img src={phone} alt="" />
         </div>
       </div>

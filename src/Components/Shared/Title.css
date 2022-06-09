@@ -6,3 +6,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 414px){
+    .title-text{
+        font-size: 40px;
+    }
+}

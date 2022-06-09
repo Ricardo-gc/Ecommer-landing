@@ -16,6 +16,9 @@ function App() {
       <Functionality></Functionality>
       <Download></Download>
       <Socials></Socials>
+      <div className='footer'>
+        <p><strong>Copywright 2021</strong> website.com</p>
+      </div>
     </div>
   );
 }

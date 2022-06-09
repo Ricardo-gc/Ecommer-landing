@@ -25,8 +25,58 @@
   justify-content: center;
 }
 
-.experience-container-image img{
-  border: 20px solid #DCDEFE;
-  border-radius: 55px;
-  
+/* Responsive Design */
+@media (max-width: 414px) {
+  .experience-container{
+    margin-top: 80px;
+    display: block;
+    background: none;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-container-text{
+    height: 280px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Circles */
+.circle-6{
+  background-color: #F7B6C1;
+  position: absolute;
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  top: 230vh;
+  right: 120vh;
+}
+.circle-7{
+  background-color: #F7B6C1;
+  position: absolute;
+  height: 104px;
+  width: 104px;
+  border-radius: 50%;
+  top: 285vh;
+  right: 130vh;
+}
+
+.circle-8{
+  background-color: #5956E9;
+  position: absolute;
+  height: 87px;
+  width: 87px;
+  border-radius: 50%;
+  top: 200vh;
+  right: 60vh;
+}
+.circle-9{
+  background-color: #5956E9;
+  position: absolute;
+  height: 31px;
+  width: 31px;
+  border-radius: 50%;
+  top: 230vh;
+  right: 45vh;
 }

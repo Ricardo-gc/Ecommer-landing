@@ -6,17 +6,6 @@
   grid-template-columns: 1.2fr 1fr;
 }
 
-.functionality-container-image{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.functionality-container-image img{
-  border: 20px solid #DCDEFE;
-  border-radius: 55px;
-}
-
 .functionality-container-text{
   max-height: 350px;
   display: flex;
@@ -28,4 +17,26 @@
   font-size: 24px;
   font-weight: 700;
   color: #5956E9;
+}
+
+/* Responsive Design */
+
+@media (max-width: 414px){
+  .functionality-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .functionality-container-text{
+    height: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.functionality-container-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

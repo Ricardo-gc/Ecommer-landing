@@ -7,12 +7,17 @@
   align-items: center;
   background-color: #FAB8C3;
   color: #5956E9;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   user-select: none;
+  transition: background-color 0.5s;
+}
+
+.button-button:hover{
+  background-color: hsl(350, 85%, 81%);
 }
 
 .primary{
@@ -20,4 +25,9 @@
   max-height: 70px;
   background-color: #5956E9;
   color: #FFFFFF;
+  transition: background-color 0.5s;
+}
+
+.primary:hover{
+  background-color: #4441ec;
 }
